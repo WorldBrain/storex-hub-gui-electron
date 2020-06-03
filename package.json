@@ -10,7 +10,7 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
-    "@worldbrain/storex-hub": "^0.4.1",
+    "@worldbrain/storex-hub": "^0.4.3",
     "source-map-support": "^0.5.16",
     "sqlite3": "~4.1.0"
   },
