@@ -36,9 +36,9 @@ async function promptPluginInstall(application: Application) {
   if (maybePluginInfo.status !== 'success') {
     return
   }
-  const pluginInfo = maybePluginInfo.pluginInfo
+  // const pluginInfo = maybePluginInfo.pluginInfo
 
-  return application.pluginManager.installPlugin(pluginInfo, { location: directories[0] })
+  // return application.pluginManager.installPlugin(pluginInfo, { location: directories[0] })
 }
 
 main()
